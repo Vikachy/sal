@@ -1,0 +1,147 @@
+
+
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.page-light {
+    background-color: #e8cbcb;
+    text-decoration: none;
+}
+.wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.header{
+    background-color: #e8cbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    &-item{
+        margin-right: 45px;
+    }
+    &-link{
+        text-decoration: none;
+        color: #000000;
+        font-weight: 500;
+    }
+}
+.cart{
+    display: block;
+    background-position: 0 center;
+    padding-left: 20px;
+    &-count{
+      color: #000000;
+      font-size: 15px;
+      font-weight: 300;
+      padding: 5px 5px;
+      display: block;
+    }
+}
+.title-h2{
+    text-align: center;
+    font-size: 46px;
+}
+.bth{
+    background-color:#FA6334;
+    color: #FFFFFF;
+    border-radius: 24px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
+    background-repeat: no-repeat;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    &-item{
+        flex: 0 0 50%;
+    }
+    .sale{
+       &-desctipshion{
+           font-size: 20px;
+           font-weight: 300;
+        }
+        &-sale{
+            font-size: 100px;
+        }
+    }
+}
+
+.box-image {
+    width: 630px;
+    border-radius: 24px;
+    margin-right: -100px;
+    margin-left: 25px;
+}
+.katalog{
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+    text-decoration: none;
+    background-color: #e8cbcb;
+     display:inline-block;
+     padding:25px;
+     margin: 0 auto;
+    &-menu{
+        text-decoration: none;
+        color:black
+    }
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.img {
+    display: block;
+    justify-content: space-between;
+}
+.text-image{
+    display: block;
+}
+
+.katalog-image{
+    display:flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    width: 200px;
+    border-radius: 24px;
+    }
+    .foto{
+        display: block;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .foto-img{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        width: 1000px;
+        border-radius: 24px;
+    }
+    .foto-img-block {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .foto-img2{
+        display: flex;
+        margin-left: 10px;
+        width: 300px;
+        border-radius: 24px;
+    }

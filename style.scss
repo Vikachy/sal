@@ -1,0 +1,216 @@
+$accent:#FA6334;
+$dark:#000000;
+$light: #e8cbcb;
+$pink:#F3D8D8;
+$dark-pink:#E8CACA;
+$white:#FFFFFF;
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&family=Comfortaa:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.html {
+    scroll-behavior: smooth;
+  }
+  a:hover { text-shadow: 0 0 10px #ff003c; }
+.body {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    font-style: remove medium;
+}
+.page-light {
+    background-color: #e8cbcb;
+    text-decoration: none;
+}
+.wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    font-style: remove medium;
+}
+.header{
+    background-color: #e8cbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    font-style: remove medium;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    &-item{
+        margin-right: 45px;
+    }
+    &-link{
+        text-decoration: none;
+        color: #000000;
+        font-weight: 500;
+    }
+}
+.cart{
+    display: block;
+    background-position: 0 center;
+    padding-left: 20px;
+    &-count{
+      color: #000000;
+      font-size: 15px;
+      font-weight: 300;
+      padding: 5px 5px;
+      display: block;
+    }
+}
+.title-h2{
+    text-align: center;
+    font-size: 46px;
+}
+.bth{
+    background-color:#FA6334;
+    color: #FFFFFF;
+    border-radius: 24px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
+    background-repeat: no-repeat;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    font-style: remove medium;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    &-item{
+        flex: 0 0 50%;
+    }
+    .sale{
+       &-desctipshion{
+           font-size: 20px;
+           font-weight: 300;
+        }
+        &-sale{
+            font-size: 100px;
+        }
+    }
+}
+ .box{
+    &-image{
+    position: relative;
+    float: right;
+    padding: 20px 80px 0 10px;
+ }
+ }
+.notice{
+    background-color: #eab7b7;
+    text-align: center;
+    color: #000;
+}
+.collection{
+    display: flex;
+    justify-content: space-between;
+    &-item{
+
+        padding: 50px 0;
+        background-repeat: no-repeat;
+    }
+}
+    .title{
+        font-size: 32px;
+        font-weight: 400;
+        text-transform: uppercase;
+    
+         &-descripshion{
+            font-size: 26px;
+            margin-bottom: 30px;
+        }
+    }
+.page-dark{
+    background-color:#eab7b7;
+}
+.page{
+    background-color: #e8cbcb;
+}
+.product{
+    background-color: #e8cbcb;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    &-title{
+        font-weight: 800;
+    }
+}
+.nain{
+    display: flex;
+    justify-content: space-between;
+    &-item{
+        flex: 0 0 50%;
+    }
+}
+    .sale{
+        background-color: #e8cbcb;
+       &-desctipshion{
+           font-size: 20px;
+           font-weight: 300;
+        }
+        &-sale{
+            font-size: 100px;
+        }
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+        &-logo{
+            flex: 0 0 40%;
+        }
+        &-nav{
+            flex: 0 0 60%;
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+        }
+        &-list{
+            list-style-type: none;
+            padding-left: 50px;
+            &-item{
+                margin-bottom: 10px;
+            }
+          &-title{
+             font-size: 20px;
+             font-weight: 800;
+           }
+           &-link{
+             text-decoration: none;
+             color: #000000;
+          }
+        }
+    }
+    .page{
+        display: block;
+        background-color: #e8cbcb;
+        text-decoration: none;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+        &-nav{
+            flex: 0 0 60%;
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+        }
+        &-list{
+            list-style-type: none;
+            padding-left: 50px;
+            &-item{
+                margin-bottom: 10px;
+            }
+        }
+    }
+    
+ 
